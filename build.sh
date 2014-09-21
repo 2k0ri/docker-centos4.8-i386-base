@@ -73,7 +73,6 @@ sed -i \
     -e 's@^#baseurl=http://mirror.centos.org/centos/$releasever/@baseurl=http://vault.centos.org/4.8/@g' \
     ${instroot}/etc/yum.repos.d/CentOS*.repo
 
-A
 chroot ${instroot} yum clean all
 
 ## clean up mounts ($instroot/proc mounted by yum, apparently)
