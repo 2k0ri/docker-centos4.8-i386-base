@@ -9,7 +9,7 @@ DEST_IMG="/srv/centos48.tar.xz"
 
 rm -f ${DEST_IMG}
 
-yum install -y xz
+yum install -y xz gcc gcc-c++
 
 instroot=$(mktemp -d)
 tmpyum=$(mktemp)
