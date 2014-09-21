@@ -1,6 +1,6 @@
-# From-scratch CentOS 4.9 Docker image
+# From-scratch CentOS 4.8 Docker image
 
-As-minimal-as-possible CentOS 4.9 image using `yum` and some `chroot` magic.
+As-minimal-as-possible CentOS 4.8 image using `yum` and some `chroot` magic.
 The idea of checking in a large, opaque binary file makes me itch, but the
 Docker model doesn't currently allow for more control over image creation.  This
 is hopefully the only time I'll have to do this…
